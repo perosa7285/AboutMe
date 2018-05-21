@@ -1,0 +1,9 @@
+ $(function(){
+      $("#Navigation").load("navigation.html");
+      $("#AboutMe").load("aboutme.html");
+      $("#Experience").load("experience.html"); 
+      $("#Education").load("education.html"); 
+      $("#Skills").load("skills.html");
+      $("#Interest").load("interest.html");
+      $("#Footer").load("footer.html"); 
+    });

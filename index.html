@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About Me</title>
+
+    <!-- Form CSS -->
+    <link rel="stylesheet" href="C:\Users\user\Desktop\Form\form.css">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- AngularJs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <style>
+    .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fffdfd;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+    color: rgb(17, 249, 48);
+    }
+  </style>
+
+  <!-- JQuery Script -->
+  <script src="jquery.js"></script>
+  <!-- JQuery Include Script -->
+  <script src="js/jqueryInclude.js"></script>
+
+  </head>
+
+  <body id="page-top" ng-app="myApp">
+
+    <!-- Navigation -->
+    <div id="Navigation"></div>
+
+    <!-- Contatiner -->
+    <div class="container-fluid p-0">
+
+      <!-- AboutMe -->
+      <div id="AboutMe"></div>
+      <!-- Experience -->
+      <div id="Experience"></div>
+      <!-- Education -->
+      <div id="Education"></div>
+      <!-- Skills -->
+      <div id="Skills"></div>
+      <!-- Interest -->
+      <div id="Interest"></div>
+
+      <!-- AngularJS Include interest.php -->
+      <div ng-include="'https://corpseweed.000webhostapp.com/forms/form.php'"></div>
+      <!-- <div ng-include="'https://corpseweed.000webhostapp.com/chatroom.php'"></div> -->
+
+      <!-- Include Script  -->
+      <script src="js/angularInclude.js"></script>
+
+     <!-- <div ng-app="myApp" ng-include="'https://corpseweed.byethost.com/sample.php'"></div>
+
+      <script type="text/javascript">
+        var app = angular.module('myApp', [])
+      app.config(function($sceDelegateProvider) {
+         $sceDelegateProvider.resourceUrlWhitelist([
+              'https://corpseweed.byethost.com/**'
+
+        ]);
+      });
+      </script> -->
+
+    </div>
+
+  <!-- Footer -->
+  <div id="Footer"></div>
+
+
+  </body>
+
+</html>
